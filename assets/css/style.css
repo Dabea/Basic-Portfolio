@@ -16,17 +16,19 @@
 }
 
 .masthead-navigation {
-    
-    margin-left: 40%;
-    background-color: blue;
+    margin-left: 65%;
+    height: 100%;;
     overflow: hidden;
    
 }
 
 .masthead-navigation-listItem {
-    float: right;
-    padding-left: 5%;
-    margin-top: 2%;
-    background-color: #4aaaa5
-   
+    float: left;
+    padding: 5px 10px 10px 5px;
+    margin-top: 10px;
+    border-right: solid 1px #999999;
+}
+
+.divider-right {
+    border-right: solid 1px #999999;
 }
