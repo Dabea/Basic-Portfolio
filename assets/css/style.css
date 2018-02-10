@@ -1,32 +1,54 @@
+body {
+    background-color: lightgray;
+}
+
 /*** Mast head ***/
 .masthead-content {
-    height:75px;
+    overflow: auto;
     background-color: #ffffff;
-    overflow: hidden;
     width:100%;
+    padding:15px;
 
 }
 
 .masthead-name {
     background-color: #4aaaa5 ;
     float: left;
-    padding:15px;
+    padding:20px;
     margin-left: 15%;
     width: 250px;
 }
 
 .masthead-navigation {
-    
-    margin-left: 40%;
-    background-color: blue;
+    width:40%;
+    margin-left: 15%;
     overflow: hidden;
-   
 }
 
-.masthead-navigation-listItem {
+.masthead-navigation ul li {
     float: right;
-    padding-left: 5%;
-    margin-top: 2%;
-    background-color: #4aaaa5
-   
+    padding:0% 5% 0 5%;
+    margin-top: 3%;
+    border-right:1px solid #999999;
+}
+
+/** Conntact Area **/
+.contact-content {
+    background-color: #ffffff;
+    float: right;
+    
+}
+
+.contact-content ul li {
+    float: left;
+    padding:15px;
+
+}
+
+.contact-icon { 
+    width:50px;
+}
+
+.text-center {
+    text-align: center;
 }
