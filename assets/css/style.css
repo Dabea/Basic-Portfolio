@@ -1,5 +1,14 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
 body {
     background-color: lightgray;
+}
+li {
+    list-style: none;
 }
 
 /*** Mast head ***/
@@ -28,27 +37,81 @@ body {
 .masthead-navigation ul li {
     float: right;
     padding:0% 5% 0 5%;
-    margin-top: 3%;
+    
     border-right:1px solid #999999;
+}
+
+/* Main Content **/
+.main-content {
+    float: left;
+    background-color: #ffffff;
+    width:60%;
+    margin: 15px;
+    
 }
 
 /** Conntact Area **/
 .contact-content {
+    min-width: 275px;
+    width:275px;
     background-color: #ffffff;
-    float: right;
-    
+    overflow: auto;
+    margin: 25px;
+    margin-left:  55px;
+
+}
+
+.content-wrapper {
+    min-height: 100%;
+    margin-bottom: -125px;
 }
 
 .contact-content ul li {
-    float: left;
-    padding:15px;
+    display: inline;
+    padding:3%;
+}
 
+.contact-content ul li:first-of-type {
+    margin:0;
+    padding-left: 0px;
 }
 
 .contact-icon { 
-    width:50px;
+    width:55px;;;
 }
 
 .text-center {
     text-align: center;
+}
+
+/****** footer Content *****/
+
+.footer-content {
+    width: 100%;
+    background-color: #333333;
+
+}
+
+.footer-push {
+    height: 50px;
+}
+
+
+/** media Query's **/
+@media screen and (min-width: 1000px) {
+    .main-content {
+        width:69%;
+        max-width: 780px;
+    }
+}
+
+
+@media screen and (max-width: 762px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .main-content {
+        width:95%;
+    }
 }
