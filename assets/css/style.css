@@ -26,6 +26,14 @@ h2 {
      font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+a:link , a:visited  {
+    color:#777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
 
 /*** Mast head ***/
 .masthead-content {
@@ -86,13 +94,17 @@ h2 {
     position: absolute;
     width: 100%;
     height: 30px;
-    padding-top: 15px;
-    bottom: 10px;
+    padding-top: 20px;
+    bottom: 15px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     font-size: 16px;
     vertical-align: middle;
+}
+
+.portfolio-image {
+    width: 100%;
 }
 
 
@@ -197,8 +209,7 @@ textarea {
         width:650px;
         max-width: 650px;
         margin-left: 20%;
-        background-color: blueviolet;
-         position: relative;
+        position: relative;
     }
 }
 
@@ -208,11 +219,33 @@ textarea {
         margin-left: 6%;
         margin-bottom: 15px;
     }
+
+    .masthead-name{
+        margin-left: 6%;
+    }
+
     .contact-content {
         widows: 275px;
         margin-top: 15px;
         position: static;
         display: block;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 612px) {
+
+    .masthead-navigation {
+        width:90%;
+        margin: 0px;
+        margin-top: 19px;
+        margin-right: 20px;
+       
+    }
+    
+    .masthead-navigation ul li {
+        
+        padding-right: 12%;
+        border-right:1px solid #999999;
     }
 }
