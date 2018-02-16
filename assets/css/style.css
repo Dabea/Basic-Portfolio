@@ -28,14 +28,17 @@ h2 {
 
 a:link , a:visited  {
     color:#777777;
+    text-decoration: none;
 }
 
 a:hover {
     color: #4aaaa5;
+    text-decoration: underline;
 }
 
 a.active {
     color: #4aaaa5;
+    text-decoration: underline;
 }
 
 
