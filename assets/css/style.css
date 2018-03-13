@@ -240,12 +240,10 @@ textarea {
         margin: 0px;
         margin-top: 19px;
         margin-right: 20px;
-       
     }
     
     .masthead-navigation ul li {
-        
         padding-right: 12%;
-        border-right:1px solid #999999;
+        border:1px solid #999999;
     }
 }
