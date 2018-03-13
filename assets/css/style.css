@@ -28,10 +28,17 @@ h2 {
 
 a:link , a:visited  {
     color:#777777;
+    text-decoration: none;
 }
 
 a:hover {
     color: #4aaaa5;
+    text-decoration: underline;
+}
+
+a.active {
+    color: #4aaaa5;
+    text-decoration: underline;
 }
 
 
@@ -119,11 +126,6 @@ a:hover {
     padding:5px;
 }
 
-.content-wrapper {
-    min-height: 100%;
-    margin-bottom: -85px;
-}
-
 .contact-content ul li {
     display: inline;
     padding:3%;
@@ -169,7 +171,7 @@ textarea {
 }
 
 
-/****** footer Content *****/
+/****** footer Content & Sticky Footer classes *****/
 
 .footer-content {
     width: 100%;
@@ -179,6 +181,11 @@ textarea {
     text-align: center;
     clear:both;
     margin-top: 15px;
+}
+
+.content-wrapper {
+    min-height: 100%;
+    margin-bottom: -85px;
 }
 
 .footer-push {
